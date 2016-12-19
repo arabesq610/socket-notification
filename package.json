@@ -1,0 +1,29 @@
+{
+  "name": "socket-notification",
+  "version": "1.0.0",
+  "description": "Real time notification system using Socket.io and ExpressJS",
+  "main": "./Server/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arabesq610/socket-notification.git"
+  },
+  "author": "Elizabeth Linn <elise_81@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arabesq610/socket-notification/issues"
+  },
+  "homepage": "https://github.com/arabesq610/socket-notification#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mysql": "^2.12.0",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-nodemon": "^0.4.2"
+  }
+}
